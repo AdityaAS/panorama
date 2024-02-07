@@ -7,6 +7,13 @@ The goal is to meet the following criteria
 1. The scene should look consistent as per the user’s prompt
 2. The generated panorama’s ends should meet i.e. seam needs to be tiled.
 
+Generated panorama without depth conditioning
+![Drag Racing](images/prompt_0_wo_depth.png)
+
+Generated panorama with depth conditioning
+![Drag Racing](images/prompt_0_w_depth.png)
+
+
 ## Setup
 
 ```
