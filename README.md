@@ -46,8 +46,8 @@ Pre-generated and their corresponding prompts are at images/ and prompts.txt res
 ## Thought Process
 
 1. Generating a hdri view image from a pre-trained checkpoint was straightforward. Used the model from [https://huggingface.co/jbilcke-hf/sdxl-panorama](https://huggingface.co/jbilcke-hf/sdxl-panorama) and used [MagicPrompt](https://huggingface.co/spaces/Gustavosta/MagicPrompt-Stable-Diffusion) to get a sense of what the prompts should contain.
-2.
-3. While the output of 1. were realistic generations (in most cases), they were still not a 360° panorama because the ends of the image weren't coherent. I adopted a very simple of approach of masking the ends of the image, shiting the image by an offset and using SD to inpaint the masked portion of the image. This ensured that the ends of the panorama were consistent. The inpainting is done using guiding_scale=1 so that the prompt is ignored completely.
+
+2. While the output of 1. were realistic generations (in most cases), they were still not a 360° panorama because the ends of the image weren't coherent. I adopted a very simple of approach of masking the ends of the image, shiting the image by an offset and using SD to inpaint the masked portion of the image. This ensured that the ends of the panorama were consistent. The inpainting is done using guiding_scale=1 so that the prompt is ignored completely.
 
 I experimented with tweaking the prompt quite a bit to try and avoid doing step 2. but the prompting was just not enough. The ends of the image would always be mismatched. The inpainting approach seemed like the most straightforward approach from that point on.
 
