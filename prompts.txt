@@ -1,0 +1,5 @@
+"hdri view, an indoor view of a room as a 360 panorama from the center of the room, in the style of <s0><s1"
+"hdri view, indoor view of recording studio, in the style of <s0><s1>"
+"hdri view, an indoor view of a room as a 360 panorama from the center of the room, with a cat, in the style of s0s1"s anime protagonist,, trending on pixiv, highly detailed, pretty, realistic
+"hdri view, bedroom, 4 walls, 1 window, italian architecture style, realistic, pretty, beautiful, craig mullins, greg rutkowski"
+"hdri view, a generic room, big room, 4 walls, 1 window, vibrant solid colors"
